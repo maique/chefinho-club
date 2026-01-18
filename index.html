@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<link rel="preconnect" href="https://fonts.bunny.net">
-	<link href="https://fonts.bunny.net/css?family=archivo-black:400" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<style>
-	  html, body {
-		width: 100%;
-		height: 100%;
-		margin: 0;
-	  }
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=archivo-black:400" rel="stylesheet">
 
-	  body {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
 
-		background: #1a1a18;
-		color: #d87656;
-		font-family: 'Archivo Black', sans-serif;
-		letter-spacing: -0.04em;
-	  }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
 
-	  img {
-		max-width: 40vw;
-		max-height: 50vh;
-		object-fit: contain;
-		display: block;
-	  }
+        padding: 1rem;
 
-	  .title {
-		font-size: 1.2vw;
-		text-align: center;
-		line-height: 1;
-		opacity: 0.9;
-	  }
-	</style>
+        background: #1a1a18;
+        color: #d87656;
+        font-family: 'Archivo Black', sans-serif;
+        letter-spacing: -0.04em;
+      }
+
+      img {
+        width: 100%;
+        max-width: 420px;
+        max-height: 60vh;
+
+        object-fit: contain;
+        display: block;
+      }
+
+      .title {
+        font-size: clamp(12px, 3.5vw, 16px);
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        opacity: 0.75;
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>
-	<img src="IMG_7649.JPG" alt="chefinho">
-	<div class="title">chefinho.club</div>
+    <img src="IMG_7649.JPG" alt="chefinho">
+    <div class="title">chefinho.club</div>
   </body>
 </html>
