@@ -40,9 +40,16 @@
         display: block;
       }
 
+      .figure {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
       .title {
         margin-top: 0.4rem;
-        font-size: clamp(13px, 4v
+        font-size: clamp(13px, 4vw, 18px);
         line-height: 1.05;
         opacity: 0.75;
         text-align: center;
@@ -52,7 +59,9 @@
   </head>
 
   <body>
-    <img src="IMG_7649.JPG" alt="chefinho">
-    <div class="title">chefinho.club</div>
+    <div class="figure">
+      <img src="IMG_7649.JPG" alt="chefinho">
+      <div class="title">chefinho.club</div>
+    </div>
   </body>
 </html>
